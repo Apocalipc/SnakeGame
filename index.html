@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="game-container">
+        <div class="controls-area">
+            <label for="playerName">Nome do Jogador:</label>
+            <input type="text" id="playerName" placeholder="Digite seu nome" maxlength="20">
+            <p>Pontuação: <span id="score">0</span> </span></p>
+        </div>
+
+        <div id="gameOverScreen" class="game-over-screen">
+            <h2>Fim de Jogo!</h2>
+                <p>Jogador: <span id="finalPlayerName">Anônimo</span></p>
+                <p>Sua pontuação final <span id="finalScore">0</span></p>
+                <button id="restartButton">Reiniciar Jogo</button>
+        </div>
+
+        <div id="gameBoard" class="game-board">
+
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
